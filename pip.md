@@ -1,4 +1,4 @@
-#pip的常见命令
+# pip的常见命令
 
 pip --help      获取帮助
 pip install -U pip      升级pip
