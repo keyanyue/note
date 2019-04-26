@@ -7,7 +7,7 @@ conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/f
 conda config --set show_channel_urls yes
 
 ## 创建一个名为python34的环境，指定python版本时3.4（不用管时3.4.x，conda会为我们自动寻找3.4.x中的最新版本）
-conda create --name python34 python==3.4
+conda create --name python34 python=3.4
 
 ## 安装好后，使用active激活某个环境
 activate python34       #for windows
