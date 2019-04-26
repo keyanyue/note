@@ -18,6 +18,9 @@ source activate python34    #for Linux & Mac
 deactivate python34       #for windows
 source deactivate python34      #for Linux & Mac
 
+## 查看已创建的环境
+conda info --env
+
 ## 删除一个已有环境
 conda remove --name python34 --all
 
